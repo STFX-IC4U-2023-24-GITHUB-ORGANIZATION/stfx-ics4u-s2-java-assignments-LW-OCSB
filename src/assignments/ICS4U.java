@@ -65,7 +65,7 @@ public class ICS4U {
 	// DESCRIPTION - Displays "Hello World!" to console
 	// PARAMETER - NA
 	// RETURN TYPE - void
-	public static void helloWorld()  {
+	protected static void helloWorld()  {
 			
 		System.out.println("Hello World!");
 	}
