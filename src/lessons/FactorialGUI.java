@@ -1,5 +1,6 @@
 package lessons;
 
+import assignments.ICS4U;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -67,7 +68,7 @@ public class FactorialGUI {
 				}
 			
 			
-				textField2.setText(Integer.toString(factorial(n)));
+				textField2.setText(Integer.toString(ICS4U.factorial(n)));
 				
 				
 			}
@@ -94,30 +95,4 @@ public class FactorialGUI {
 		frame.getContentPane().add(label2);
 	}
 
-	
-	// DESCRIPTION - Calculates factorial of non-negative integer.  Returns -1 if parameter is negative.
-	// PARAMETERS - int n
-	// RETURN - int
-	public static int factorial(int n)  {
-		
-		int answer = 1;
-		
-		if (n < 0)  
-			// sentinel value
-			return -1;
-		
-		else if ( (n == 0) || (n == 1) )
-			return answer;
-		
-		else  {
-			
-			while (n > 1)  {
-			
-				answer = n * answer;
-				n--;
-			}
-			
-			return answer;
-		}
-	}
 }
