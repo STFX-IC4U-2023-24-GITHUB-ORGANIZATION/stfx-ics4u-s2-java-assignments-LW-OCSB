@@ -6,6 +6,7 @@ public class MenuReview {
 	public static void main(String[] args) {
 
 		// variables
+		int[] integerArray = new int[12];
 		Scanner sc = new Scanner(System.in);
 		int choice = 0;
 		
@@ -17,18 +18,16 @@ public class MenuReview {
 			System.out.println("3. Exit");
 			System.out.println("Choice: ");
 			
-			choice = sc.nextInt();
-			
 			if (choice == 1)  {
-				enterTwelveIntegersMethod();
+				enterTwelveIntegersMethod(integerArray);
 			}
 		}
 
 	}
 
-	public static void enterTwelveIntegersMethod()  {
+	public static void enterTwelveIntegersMethod(int[] a)  {
 		
-		// method code ...
+		a[0] = 9; // ...
 	}
 	
 }
