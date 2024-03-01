@@ -32,7 +32,7 @@ public class WrapperClasses {
 		myArrayList.add(myBoolean1);  // converted boolean to Boolean "boxing"
 		myArrayList.add(myBoolean2);
 		
-		myArrayList.get(0).
+	
 		
 		
 	}
