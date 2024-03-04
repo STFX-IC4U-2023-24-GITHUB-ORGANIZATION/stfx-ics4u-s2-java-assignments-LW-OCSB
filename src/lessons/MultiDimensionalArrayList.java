@@ -45,8 +45,8 @@ public class MultiDimensionalArrayList {
 		myList.add(row4);
 		
 		// print entire list
-		System.out.println(myList);
-		
+		//System.out.println(myList);
+		 
 		// loop through the list to control access/printing
 		for (int i=0; i<myList.size(); i++)  {
 			
